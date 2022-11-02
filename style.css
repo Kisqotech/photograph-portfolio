@@ -1240,13 +1240,19 @@ footer {
   }
 
   .header_btn {
-    right: 14%;
-    margin-top: 24rem;
+    right: 22%;
+    margin-top: 25rem;
+    overflow: hidden;
+  }
+
+  .about_title {
+    margin: 1rem 0;
   }
 
   .box {
     width: 150px;
     height: 150px;
+    z-index: -1;
   }
 
   .box span {
@@ -1271,9 +1277,18 @@ footer {
 
 /*=====Media Queries Section Small Screen=======*/
 @media screen and (max-width: 375px){
+  .header_btn {
+    right: 18%;
+  }
+
+
   /*======Media About Section=======*/
   .about_container .about_right {
     margin: -2rem 3.6rem 3.5rem;
+  }
+
+  .about_title {
+    margin: 1rem 0;
   }
 
 
@@ -1295,6 +1310,10 @@ footer {
 @media screen and (max-width: 320px) {
   .header_right {
     margin: -8rem 5rem 0 1.2rem;
+  }
+
+  .header_btn {
+    margin-top: 21rem;
   }
 
 
