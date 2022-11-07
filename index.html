@@ -16,7 +16,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
-
+  <link rel="icon" type="images/png" href="./images/kisqotech_logo-4-removebg.png">
   <!--css Sheet-->
   <link rel="stylesheet" href="./style.css">
   <title>Photography Portfolio</title>
@@ -77,7 +77,7 @@
     </div>
   </header>
   <!--------------------HEADER FRAMES------------------->
-  <div class="header_frames header_frames-fx">
+ <!--- <div class="header_frames header_frames-fx">
     <div class="header_frame">
       <img src="./images/me_6.jpeg" alt="kisqo image 6">
     </div>
@@ -85,7 +85,7 @@
     <div class="header_frame">
       <img src="./images/me_7.jpeg" alt="kisqo image 7">
     </div>
-  </div>
+  </div> -->
 
   <a href="mailto:myemail@gmail.com" class="contact_btn header_btn">
     <i class="uil uil-arrow-up-right"></i>
@@ -95,7 +95,21 @@
 
   
 
-  <div class="background_container container">
+ <section class="background_container container">
+
+  <div class="animation_3d container">
+    <div class="box">
+        <span style="--i:1;"><img src="./images/me_1.jpeg" alt=""></span>
+        <span style="--i:2;"><img src="./images/me_2.jpeg" alt=""></span>
+        <span style="--i:3;"><img src="./images/me_3.jpeg" alt=""></span>
+        <span style="--i:4;"><img src="./images/me_4.jpeg" alt=""></span>
+        <span style="--i:5;"><img src="./images/me_5.jpeg" alt=""></span>
+        <span style="--i:6;"><img src="./images/me_6.jpeg" alt=""></span>
+        <span style="--i:7;"><img src="./images/me_7.jpeg" alt=""></span>
+        <span style="--i:8;"><img src="./images/me_8.jpeg" alt=""></span> 
+    </div>
+  </div>
+
     <div class="bubbles">
       <span style="--i:11;"></span>
       <span style="--i:12;"></span>
@@ -149,20 +163,8 @@
       <span style="--i:28;"></span>
     </div>
   
-  <section class="animation_3d container">
-    <div class="box">
-      <span style="--i:1;"><img src="./images/me_1.jpeg" alt=""></span>
-      <span style="--i:2;"><img src="./images/me_2.jpeg" alt=""></span>
-      <span style="--i:3;"><img src="./images/me_3.jpeg" alt=""></span>
-      <span style="--i:4;"><img src="./images/me_4.jpeg" alt=""></span>
-      <span style="--i:5;"><img src="./images/me_5.jpeg" alt=""></span>
-     <span style="--i:6;"><img src="./images/me_6.jpeg" alt=""></span>
-      <span style="--i:7;"><img src="./images/me_7.jpeg" alt=""></span>
-      <span style="--i:8;"><img src="./images/me_8.jpeg" alt=""></span> 
-    </div>
-  </section>
 
-</div>
+  </section>
 
 
 
@@ -206,125 +208,123 @@
 <!--------------------END OF ABOUT SECTION--------------->
 
 <!--------------------GALLERY SECTION--------------->
-<div class="background_container">
-  <div class="bubbles">
-    <span style="--i:11;"></span>
-    <span style="--i:12;"></span>
-    <span style="--i:24;"></span>
-    <span style="--i:10;"></span>
-    <span style="--i:14;"></span>
-    <span style="--i:23;"></span>
-    <span style="--i:18;"></span>
-    <span style="--i:16;"></span>
-    <span style="--i:19;"></span>
-    <span style="--i:20;"></span>
-    <span style="--i:22;"></span>
-    <span style="--i:25;"></span>
-    <span style="--i:18;"></span>
-    <span style="--i:21;"></span>
-    <span style="--i:15;"></span>
-    <span style="--i:13;"></span>
-    <span style="--i:26;"></span>
-    <span style="--i:17;"></span>
-    <span style="--i:13;"></span>
-    <span style="--i:28;"></span>
-    <span style="--i:11;"></span>
-    <span style="--i:12;"></span>
-    <span style="--i:24;"></span>
-    <span style="--i:10;"></span>
-    <span style="--i:14;"></span>
-    <span style="--i:23;"></span>
-    <span style="--i:18;"></span>
-    <span style="--i:16;"></span>
-    <span style="--i:19;"></span>
-    <span style="--i:20;"></span>
-    <span style="--i:22;"></span>
-    <span style="--i:25;"></span>
-    <span style="--i:18;"></span>
-    <span style="--i:21;"></span>
-    <span style="--i:15;"></span>
-    <span style="--i:13;"></span>
-    <span style="--i:26;"></span>
-    <span style="--i:17;"></span>
-    <span style="--i:13;"></span>
-    <span style="--i:28;"></span>
-    <span style="--i:22;"></span>
-    <span style="--i:25;"></span>
-    <span style="--i:18;"></span>
-    <span style="--i:21;"></span>
-    <span style="--i:15;"></span>
-    <span style="--i:13;"></span>
-    <span style="--i:26;"></span>
-    <span style="--i:17;"></span>
-    <span style="--i:13;"></span>
-    <span style="--i:28;"></span>
-  </div>
+ <section class="background_container">
 
 
+    <div id="gallery">
+      <div class="container gallery_container swiper mySwiper">
+        <div class="gallery_head">
+          <h2 class="gallery_tittle">My <span>Gallery</span></h2>
+          <div class="empty gallery_empty"></div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eveniet illum aperiam! Quos quam ex voluptatum! Vero animi quis iure nihil? In exercitationem assumenda consequuntur facere facilis delectus ipsam autem?
+        </p>
+        <!----------------GALLERY SLIDE--------------->
+        <div class="swiper-wrapper">
+          <article class="swiper-slide">
+            <img src="./images/me_16.jpeg" alt="kisqo image">
+          </article>
 
+          <article class="swiper-slide">
+            <img src="./images/me_2.jpeg" alt="kisqo image">
+          </article>
 
+          <article class="swiper-slide">
+            <img src="./images/me_3.jpeg" alt="kisqo image">
+          </article>
 
-<section id="gallery">
-  <div class="container gallery_container swiper mySwiper">
-    <div class="gallery_head">
-      <h2 class="gallery_tittle">My <span>Gallery</span></h2>
-      <div class="empty gallery_empty"></div>
+          <article class="swiper-slide">
+            <img src="./images/me_4.jpeg" alt="kisqo image">
+          </article>
+
+          <article class="swiper-slide">
+            <img src="./images/me_5.jpeg" alt="kisqo image">
+          </article>
+
+          <article class="swiper-slide">
+            <img src="./images/me_6.jpeg" alt="kisqo image">
+          </article>
+
+          <article class="swiper-slide">
+            <img src="./images/me_7.jpeg" alt="kisqo image">
+          </article>
+
+          <article class="swiper-slide">
+            <img src="./images/me_5.jpeg" alt="kisqo image">
+          </article>
+
+          <article class="swiper-slide">
+            <img src="./images/me_3.jpeg" alt="kisqo image">
+          </article>
+
+          <article class="swiper-slide">
+            <img src="./images/me_2.jpeg" alt="kisqo image">
+          </article>
+
+          <article class="swiper-slide">
+            <img src="./images/me_6.jpeg" alt="kisqo image">
+          </article>
+          
+        </div>
+        <div class="swiper-pagination"></div>
+      
     </div>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eveniet illum aperiam! Quos quam ex voluptatum! Vero animi quis iure nihil? In exercitationem assumenda consequuntur facere facilis delectus ipsam autem?
-    </p>
-     <!----------------GALLERY SLIDE--------------->
-    <div class="swiper-wrapper">
-      <article class="swiper-slide">
-        <img src="./images/me_1.jpeg" alt="kisqo image">
-      </article>
 
-      <article class="swiper-slide">
-        <img src="./images/me_2.jpeg" alt="kisqo image">
-      </article>
-
-      <article class="swiper-slide">
-        <img src="./images/me_3.jpeg" alt="kisqo image">
-      </article>
-
-      <article class="swiper-slide">
-        <img src="./images/me_4.jpeg" alt="kisqo image">
-      </article>
-
-      <article class="swiper-slide">
-        <img src="./images/me_5.jpeg" alt="kisqo image">
-      </article>
-
-      <article class="swiper-slide">
-        <img src="./images/me_6.jpeg" alt="kisqo image">
-      </article>
-
-      <article class="swiper-slide">
-        <img src="./images/me_7.jpeg" alt="kisqo image">
-      </article>
-
-      <article class="swiper-slide">
-        <img src="./images/me_5.jpeg" alt="kisqo image">
-      </article>
-
-      <article class="swiper-slide">
-        <img src="./images/me_3.jpeg" alt="kisqo image">
-      </article>
-
-      <article class="swiper-slide">
-        <img src="./images/me_2.jpeg" alt="kisqo image">
-      </article>
-
-      <article class="swiper-slide">
-        <img src="./images/me_6.jpeg" alt="kisqo image">
-      </article>
-
+    <div class="bubbles">
+      <span style="--i:11;"></span>
+      <span style="--i:12;"></span>
+      <span style="--i:24;"></span>
+      <span style="--i:10;"></span>
+      <span style="--i:14;"></span>
+      <span style="--i:23;"></span>
+      <span style="--i:18;"></span>
+      <span style="--i:16;"></span>
+      <span style="--i:19;"></span>
+      <span style="--i:20;"></span>
+      <span style="--i:22;"></span>
+      <span style="--i:25;"></span>
+      <span style="--i:18;"></span>
+      <span style="--i:21;"></span>
+      <span style="--i:15;"></span>
+      <span style="--i:13;"></span>
+      <span style="--i:26;"></span>
+      <span style="--i:17;"></span>
+      <span style="--i:13;"></span>
+      <span style="--i:28;"></span>
+      <span style="--i:11;"></span>
+      <span style="--i:12;"></span>
+      <span style="--i:24;"></span>
+      <span style="--i:10;"></span>
+      <span style="--i:14;"></span>
+      <span style="--i:23;"></span>
+      <span style="--i:18;"></span>
+      <span style="--i:16;"></span>
+      <span style="--i:19;"></span>
+      <span style="--i:20;"></span>
+      <span style="--i:22;"></span>
+      <span style="--i:25;"></span>
+      <span style="--i:18;"></span>
+      <span style="--i:21;"></span>
+      <span style="--i:15;"></span>
+      <span style="--i:13;"></span>
+      <span style="--i:26;"></span>
+      <span style="--i:17;"></span>
+      <span style="--i:13;"></span>
+      <span style="--i:28;"></span>
+      <span style="--i:22;"></span>
+      <span style="--i:25;"></span>
+      <span style="--i:18;"></span>
+      <span style="--i:21;"></span>
+      <span style="--i:15;"></span>
+      <span style="--i:13;"></span>
+      <span style="--i:26;"></span>
+      <span style="--i:17;"></span>
+      <span style="--i:13;"></span>
+      <span style="--i:28;"></span>
     </div>
-    <div class="swiper-pagination"></div>
-  
-</section>
 
-</div>
+  </section>
 <!--------------------END OF GALLERY SECTION--------------->
 
 
@@ -346,7 +346,7 @@
 
     </div>
 
-    <div class="exhibition_gallery">
+    <div class="exhibition_gallery container">
       <article>
         <img src="./images/me_1.jpeg" alt="Kisqo image">
       </article>
@@ -360,7 +360,7 @@
       </article>
 
       <article>
-        <img src="./images/me_4.jpeg" alt="Kisqo image">
+        <img src="./images/me_16.jpeg" alt="Kisqo image">
       </article>
 
       <article>
@@ -378,9 +378,11 @@
       <article>
         <img src="./images/me_5.jpeg" alt="Kisqo image">
       </article>
+
       <article>
         <img src="./images/me_1.jpeg" alt="Kisqo image">
       </article>
+
       <article>
         <img src="./images/me_6.jpeg" alt="Kisqo image">
       </article>
@@ -388,6 +390,20 @@
       <article>
         <img src="./images/me_3.jpeg" alt="Kisqo image">
       </article>
+
+      <article>
+        <img src="./images/me_19.jpeg" alt="Kisqo image">
+      </article>
+
+      <article>
+        <img src="./images/me_17.jpeg" alt="Kisqo image">
+      </article>
+
+      <article>
+        <img src="./images/me_20.jpeg" alt="Kisqo image">
+      </article>
+
+
     </div>
   </div>
 </section>
