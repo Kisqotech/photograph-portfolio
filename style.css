@@ -1392,12 +1392,57 @@ footer {
 
 /*=====Media Queries Section Small Screen=======*/
 @media screen and (max-width: 456px) {
+  .header_btn {
+    margin-top: 22rem;
+  }
+
+  #about {
+    margin-top: 4rem;
+    width: %;
+  }
+
+  .about_container {
+    padding: ;
+  }
+
+  .about_image-lg {
+    width: 18rem;
+  }
+
+  .about_right p {
+    margin: 0;
+    max-width: 85%;
+    text-align: center;
+  }
+
+
   .gallery_container {
-    height: 45vh;
+    height: 50vh;
+    left: -.8rem;
   }
 
   #exhibitions {
-    margin-top: -6rem;
+    margin-top: -2rem;
+  }
+
+  .exhibition_head {
+    grid-template-columns: 12rem 12rem;
+    gap: 1rem;
+  }
+
+  .exhibition_head > p {
+    width: 20rem;
+    margin-top: 5rem;
+  }
+
+
+  .exhibition_btn i {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .exhibition_gallery {
+    width: 100%;
   }
 }
 
@@ -1431,21 +1476,10 @@ footer {
   }
 
   
-
   #exhibitions {
     margin-top: -4rem;
   }
 
-
-  .exhibition_head {
-    grid-template-columns: 12rem 12rem;
-    gap: 1rem;
-  }
-
-  .exhibition_head > p {
-    width: 20rem;
-    margin-top: 5rem;
-  }
 
   .exhibition_gallery article {
     height: 100%;
