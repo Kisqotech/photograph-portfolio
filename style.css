@@ -903,7 +903,7 @@ footer {
 
   /*==========Media 3d animation Section============*/
   .background_container {
-    height: 60vh;
+    height: 68vh;
   } 
 
   .box span {
@@ -977,6 +977,7 @@ footer {
 .exhibition_btn {
   margin-top: -3rem;
 }
+
 
 .exhibition_gallery {
   gap: 1rem;
@@ -1054,20 +1055,29 @@ footer {
     font-size: .9rem;
     line-height: 1.3;
   }
-   /* Media Gallery section  */
+   /* Media Exhibition section  */
 
   #exhibitions {
     margin-top: 10rem;
   }
 
   .exhibition_head {
+    grid-template-columns: 26rem 14rem;
     margin-top: -4rem;
+  }
+
+  .exhibition_btn i {
+    margin: 1rem 2rem;
+  }
+
+  .exhibition_gallery {
+    width: 100%;
   }
 }
 
 
 /*=====Media Queries Section Small Screen=======*/
-@media screen and (max-width: 720px){
+/*@media screen and (max-width: 720px){
   .exhibition_head {
     grid-template-columns: 22rem 16rem;
   }
@@ -1075,7 +1085,7 @@ footer {
 
 
 /*==========Media Queries Section (small screen============*/
-@media screen and (max-width: 600px){
+/*@media screen and (max-width: 600px){
   h1, h2 {
     font-size: 1.6rem;
     line-height: 1.3;
@@ -1135,7 +1145,7 @@ footer {
   transition: var(--transition);
 } */
 
-.header_btn {
+/*.header_btn {
   margin-top: 30rem;
 }
 
@@ -1175,7 +1185,7 @@ footer {
 /*==========Media 3d animation Section============*/
 
 
-.box {
+/*.box {
   width: 170px;
   height: 170px;
 }
@@ -1185,7 +1195,7 @@ footer {
 }
 
   /*==========Media About Section============*/
-  #about {
+  /*#about {
     height: 100%;
   }
   .about_container {
@@ -1222,7 +1232,7 @@ footer {
 
 
   /*==========Media Gallery Section============*/
-  #gallery {
+ /* #gallery {
     padding-top: 2rem;
   }
 
@@ -1244,7 +1254,7 @@ footer {
   }
 
   /*==========Media Exhibition Section==========*/
-  #exhibitions {
+ /* #exhibitions {
     margin-top: 0rem;
   }
 
@@ -1275,10 +1285,10 @@ footer {
     height: 40rem;
     padding: 0 1rem;
     margin-bottom: 1rem;
-  }
+  } */
 
   /*==========Media Footer Section==========*/
-footer {
+/*footer {
   margin-top: 2rem;
 }
   .footer_head {
@@ -1299,40 +1309,141 @@ footer {
 
 /*==========Media Queries Section (small screen============*/
 @media screen and (max-width: 596px){
-  .gallery_container {
-    margin: 0 4rem;
-  }
-
-  #exhibitions {
-    margin-top: 10rem;
-  }
-
-  .exhibition_gallery article {
+  header {
+    margin-top: -8rem;
+    padding-bottom: 6rem;
     height: 100%;
-    width: 100%;
-    margin-bottom: 2rem;
+  }
+  
+  .header_image-lg {
+    max-width: 80%;
+    height: 30rem;
+    margin: 0 auto;
+    margin-top: 7rem;
+    overflow: hidden;
+    border-radius: 10rem 10rem 2rem 2rem;
   }
 
-  .container {
-    width: 78%;
+  h1, h2 {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
   }
 
-  .swiper-wrapper  article {
+  .header_tag {
+    font-size: 1.3rem;
+  }
+
+  .header_right p {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .header_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .header_head {
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .header_btn {
+    margin-top: 45rem;
+  }
+
+    
+/*==========Media 3d animation Section============*/
+.box {
+  width: 170px;
+  height: 170px;
+}
+
+.box span {
+  transform: rotateY(calc(var(--i) * 45deg)) translateZ(160px);
+}
+
+   /*==========Media About Section============*/
+  #about {
     height: 100%;
+  }
+  .about_container {
+    display: grid;
+    grid-template-columns: 28rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .about_title {
+    top: -4rem;
+    margin: 0;
+  }
+
+  .about_image-bg {
+    height: 28rem;
+    width: 25rem;
+  }
+
+  .about_container .about_right {
     width: 100%;
+    margin: -2rem 3rem 2rem;
+  }
+
+  .about_right p {
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .swiper-wrapper {
+    margin-top: 2rem;
+    height: 35rem;
   }
   
   .swiper-slide {
-    height: 100%;
-    width: 100%;
+    height: fit-content;
+    max-height: 35rem;
   }
+
+  .gallery_container {
+    margin: 0 3rem;
+  }
+
+  #exhibitions {
+    margin-top: 18rem;
+  }
+
+  .exhibition_head {
+    grid-template-columns: 20rem 14rem;
+  }
+
+  .exhibition_gallery {
+    grid-template-columns: 1fr;
+  }
+
+  /*==========Media footer Section============*/
+  .footer_head {
+    flex-direction: column;
+  }
+
+  .footer_links {
+    flex-direction: column;
+    font-size: 1.7rem;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+
 }
 
 
 /*=====Media Queries Section Small Screen=======*/
-@media screen and (max-width: 460px) {
+/*@media screen and (max-width: 460px) {
   /*==========Media 3d animation Section============*/
-  .header_right {
+ /* .header_right {
     margin: -2rem 2rem;
   }
 
@@ -1363,7 +1474,7 @@ footer {
   }
 
   /*======Media About Section=======*/
-  .about_container .about_right {
+ /* .about_container .about_right {
     margin: -2rem 3rem 2rem;
   }
 
@@ -1381,7 +1492,7 @@ footer {
   }
 
   /*======Media Exhibition Section=======*/
-  #exhibitions {
+ /* #exhibitions {
     margin-top: 14rem;
   }
 
@@ -1397,15 +1508,58 @@ footer {
     margin-top: -.5rem;
   }
 
-
-  .header_btn {
-    margin-top: 28rem;
+  .header_right {
+    margin: 0 3rem;
+    width: auto;
+    text-align: center;
   }
 
+  .header_btn {
+    margin-top: 40rem;
+  }
+
+
   .background_container {
+    height: 50vh;
     width: 100%;
-    background: #0c192c;
     z-index: -8;
+  }
+
+  #about {
+    margin-top: 8rem;
+    position: relative;
+    z-index: 16;
+  }
+
+  .about_container .about_right {
+    margin: -1.6rem 3.5rem 2rem;
+    width: 85%;
+  }
+
+  .about_right p {
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .about_image-bg {
+    width: 18rem;
+    left: 1rem;
+  }
+
+  .about_image-lg {
+    width: 24rem;
+  }
+
+  .about_image:hover .about_image-lg {
+    border-radius: 1rem;
+    border: 1rem solid rgba(116, 15, 209, 0.8);
+    left: 1rem;
+  }
+  
+
+  /*======Media gallery Section=======*/
+  .gallery_container {
+    height: 55vh;
   }
 
   .gallery_swipper {
@@ -1417,22 +1571,6 @@ footer {
     z-index: -10;
   }
 
-  #about {
-    margin-top: 8rem;
-    position: relative;
-    z-index: 16;
-  }
-
-  .about_image-lg {
-    width: 18rem;
-  }
-
-
-  .gallery_container {
-    height: 55vh;
-    width: 90%;
-    left: -2.7rem;
-  }
 
   .swiper-wrapper {
     margin-top: 2rem;
@@ -1448,31 +1586,78 @@ footer {
     margin-top: 5rem;
   }
 
+  .exhibition_tittle {
+    text-align: left;
+  }
+
   .exhibition_head {
     grid-template-columns: 12rem 12rem;
     gap: 1rem;
   }
 
   .exhibition_head > p {
-    width: 20rem;
     margin-top: 5rem;
   }
 
 
-  .exhibition_btn i {
-    font-size: 3.5rem;
-    position: ;
-    display: inline-block;
-    place-items: center;
+  .exhibition_gallery {
+    display: block;
+    width: 100%;
   }
 
-  .exhibition_gallery {
+  .exhibition_gallery article{
+    margin-bottom: 1.5rem;
     width: 100%;
+  }
+
+  .exhibition_gallery img {
+    border-radius: 1.2rem;
   }
 }
 
+
+  /*=====Media Queries Section Small Screen=======*/
+@media screen and (max-width: 400px){
+  .header_container {
+    left: -2.2rem;
+  }
+
+  .header_right {
+    margin: 0 5rem;
+  }
+
+  .about_container {
+    margin: 0 5rem;
+  }
+
+  .about_title {
+    margin-left: -2rem;
+  }
+
+  .about_container .about_right {
+    margin: -1.6rem 3.5rem 2rem;
+    max-width: 70%;
+  }
+
+  .about_right p {
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .about_image-bg {
+    width: 16rem;
+    height: 22rem;
+    left: 1rem;
+  }
+
+  .about_image-lg {
+    width: 20rem;
+  }
+
+}
+
 /*=====Media Queries Section Small Screen=======*/
-@media screen and (max-width: 375px){
+/*@media screen and (max-width: 375px){
   .header_btn {
     right: 18%;
   }
@@ -1483,7 +1668,7 @@ footer {
 
 
   /*======Media About Section=======*/
-  .about_container .about_right {
+ /* .about_container .about_right {
     margin: -2rem 3.6rem 3.5rem;
   }
 
@@ -1515,19 +1700,19 @@ footer {
   }
 
   /*=====Media Queries Section Small Screen=======*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .header_right {
-    margin: -8rem 5rem 0 1.2rem;
+    margin: -6rem 7rem 0 5rem;
   }
 
   .header_btn {
-    margin-top: 26rem;
+    margin-top: 30rem;
   }
 
 
   .header_image-lg {
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 70%;
+    max-height: 70%;
   }
 
   /*==========Media 3d animation Section============*/
@@ -1579,11 +1764,12 @@ footer {
 
 .about_image-bg {
   height: 20rem;
-  bottom: .2rem;
+  width: 14rem;
+  left: 0;
 }
 
-.about_left {
-  width: 78%;
+.about_container .about_right {
+  margin: -1.6rem 3.5rem 0 2rem;
 }
 
 /*======Media Exhibition Section======*/
@@ -1606,7 +1792,7 @@ footer {
 .exhibition_gallery article {
   height: 20rem;
 }
-}
+} 
 
 
 
