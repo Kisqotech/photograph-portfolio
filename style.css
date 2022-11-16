@@ -1578,9 +1578,9 @@ footer {
 
   /*======Media gallery Section=======*/
   .gallery_container {
-    height: 100%;
+    height: 65vh;
     position: relative;
-    z-index: ;
+    z-index: 90;
     background: ;
   }
 
@@ -1608,12 +1608,12 @@ footer {
     background: white;
     position: relative;
     z-index: ;
-    top: -20rem;
+    bottom: 5rem;
   }
 
 
   #exhibitions {
-    margin-top: rem;
+    margin-top: -2rem;
   }
 
   .exhibition_head {
