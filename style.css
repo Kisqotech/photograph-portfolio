@@ -1414,7 +1414,7 @@ footer {
   }
 
   #exhibitions {
-    margin-top: 18rem;
+    margin-top: 25rem;
   }
 
   .exhibition_head {
@@ -1426,7 +1426,13 @@ footer {
   }
 
   .exhibition_gallery {
-    grid-template-columns: 1fr;
+   /* grid-template-columns: 1fr;*/
+   display: block;
+  }
+
+  .exhibition_gallery article{
+    margin-bottom: 1.5rem;
+    width: 100%;
   }
 
   /*==========Media footer Section============*/
@@ -1519,7 +1525,7 @@ footer {
   }
 
   .header_btn {
-    margin-top: 40rem;
+    margin-top: 35rem;
   }
 
 
@@ -1563,7 +1569,7 @@ footer {
 
   /*======Media gallery Section=======*/
   .gallery_container {
-    height: 55vh;
+    height: 60vh;
   }
 
   .gallery_swipper {
@@ -1587,7 +1593,7 @@ footer {
 
 
   #exhibitions {
-    margin-top: 5rem;
+    margin-top: 14rem;
   }
 
   .exhibition_head {
