@@ -1353,7 +1353,7 @@ footer {
   }
 
   .header_btn {
-    margin-top: 45rem;
+    margin-top: 38rem;
   }
 
     
@@ -1380,7 +1380,7 @@ footer {
   }
 
   .about_title {
-    top: -4rem;
+    top: -5rem;
     margin: 0;
   }
 
@@ -1401,7 +1401,7 @@ footer {
 
   .swiper-wrapper {
     margin-top: 2rem;
-    height: 35rem;
+    height: 40rem;
   }
   
   .swiper-slide {
@@ -1418,7 +1418,11 @@ footer {
   }
 
   .exhibition_head {
-    grid-template-columns: 20rem 14rem;
+    grid-template-columns: 18rem 14rem;
+  }
+
+  .exhibition_tittle {
+    text-align: left;
   }
 
   .exhibition_gallery {
@@ -1584,10 +1588,6 @@ footer {
 
   #exhibitions {
     margin-top: 5rem;
-  }
-
-  .exhibition_tittle {
-    text-align: left;
   }
 
   .exhibition_head {
