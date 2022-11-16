@@ -1524,16 +1524,17 @@ footer {
     text-align: center;
   }
 
-  .header_btn {
-    margin-top: 35rem;
-  }
-
-
   .background_container {
-    height: 50vh;
-    width: 100%;
+    height: 55vh;
+    width: ;
     z-index: -8;
+    background: red;
   }
+
+  .header_btn {
+    margin-top: rem;
+  }
+
 
   #about {
     margin-top: 8rem;
