@@ -1578,14 +1578,15 @@ footer {
 
   /*======Media gallery Section=======*/
   .gallery_container {
-    height: 65vh;
+    height: 100%;
     position: relative;
-    z-index: 100;
+    z-index: ;
+    background: ;
   }
 
   .gallery_swipper {
     position: relative;
-    z-index: 1000;
+    z-index: ;
   }
 
   .box {
@@ -1595,7 +1596,7 @@ footer {
 
   .swiper-wrapper {
     margin-top: 2rem;
-    z-index: 20;
+    z-index: ;
   }
   
   .swiper-slide {
@@ -1606,12 +1607,13 @@ footer {
   .swiper-pagination-bullet {
     background: white;
     position: relative;
-    z-index: 20;
+    z-index: ;
+    top: -20rem;
   }
 
 
   #exhibitions {
-    margin-top: 14rem;
+    margin-top: rem;
   }
 
   .exhibition_head {
