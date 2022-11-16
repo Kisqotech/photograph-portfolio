@@ -1358,7 +1358,6 @@ footer {
 
   .background_container {
     height: 68vh;
-    background: blue;
   } 
 
     
@@ -1535,6 +1534,11 @@ footer {
     background: brown;
   }
 
+  .bubbles {
+    width: 100%;
+    margin-left: -3rem;
+  }
+
   .header_btn {
     margin-top: rem;
   }
@@ -1574,7 +1578,7 @@ footer {
 
   /*======Media gallery Section=======*/
   .gallery_container {
-    height: 60vh;
+    height: 65vh;
     position: relative;
     z-index: 100;
   }
@@ -1585,7 +1589,7 @@ footer {
   }
 
   .box {
-    z-index: -10;
+    z-index: ;
   }
 
 
@@ -1595,7 +1599,14 @@ footer {
   }
   
   .swiper-slide {
-    max-height: 8rem;
+    max-height: fit-content;
+    width: auto;
+  }
+
+  .swiper-pagination-bullet {
+    background: white;
+    position: relative;
+    z-index: 20;
   }
 
 
