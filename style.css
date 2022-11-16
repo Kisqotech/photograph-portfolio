@@ -1595,7 +1595,7 @@ footer {
 
   .swiper-wrapper {
     margin-top: 2rem;
-    z-index: -10;
+    z-index: 20;
   }
   
   .swiper-slide {
