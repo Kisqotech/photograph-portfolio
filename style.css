@@ -1531,7 +1531,6 @@ footer {
 
   .background_container {
     height: 55vh;
-    width: ;
     z-index: -8;
     background: brown;
   }
@@ -1576,6 +1575,8 @@ footer {
   /*======Media gallery Section=======*/
   .gallery_container {
     height: 60vh;
+    position: relative;
+    z-index: 100;
   }
 
   .gallery_swipper {
