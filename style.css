@@ -1518,9 +1518,6 @@ footer {
 
 /*=====Media Queries Section Small Screen=======*/
 @media screen and (max-width: 456px) {
-  body {
-    overflow-wrap: hidden;
-  }
   .nav_container {
     margin-top: -.5rem;
   }
@@ -1529,12 +1526,11 @@ footer {
     margin: 0 3rem;
     width: auto;
     text-align: center;
-  }
+  } 
 
   .background_container {
     height: 55vh;
     z-index: -8;
-    background: peru;
   }
 
   .bubbles {
@@ -1581,29 +1577,21 @@ footer {
 
   /*======Media gallery Section=======*/
   #gallery {
-    background: brown;
     height: 65vh;
   }
   .gallery_container {
     position: relative;
     z-index: 90;
-    background: ;
+    margin: auto;
   }
 
   .gallery_swipper {
     position: relative;
-    z-index: ;
-  }
-
-  .box {
-    z-index: ;
   }
 
 
   .swiper-wrapper {
     margin-top: 2rem;
-    z-index: ;
-    background: blue;
     height: 12rem;
   }
   
@@ -1614,8 +1602,6 @@ footer {
   .swiper-pagination-bullet {
     background: white;
     position: relative;
-    z-index: ;
-    bottom: rem;
   }
 
 
@@ -1650,44 +1636,83 @@ footer {
 
 
   /*=====Media Queries Section Small Screen=======*/
-/*@media screen and (max-width: 400px){
-  .header_container {
+@media screen and (max-width: 414px){
+.header_container {
     left: -2.2rem;
-  }
+}
 
-  .header_right {
+.header_right {
     margin: 0 5rem;
-  }
+}
 
-  .about_container {
+.header_left {
+    perspective: 95rem;
+   }
+
+
+header {
+  max-width: 100%;
+  overflow: hidden;
+  gap: 1%;
+}
+  
+.background_container {
+    height: 55h;
+    width: 100%;
+    z-index: -8;
+}
+
+.bubbles span {
+    overflow: hidden;
+}
+
+.bubbles {
+    width: 100%;
+    height: 55vh;
+    margin-left: -3rem;
+}
+
+.header_btn {
+    margin-top: 42rem;
+}
+
+.about_container {
     margin: 0 5rem;
-  }
+}
 
-  .about_title {
+.about_title {
     margin-left: -2rem;
-  }
+}
 
-  .about_container .about_right {
+.about_container .about_right {
     margin: -1.6rem 3.5rem 2rem;
     max-width: 70%;
-  }
+}
 
-  .about_right p {
+.about_right p {
     line-height: 1.6;
     text-align: center;
-  }
+}
 
-  .about_image-bg {
+.about_image-bg {
     width: 16rem;
     height: 22rem;
     left: 1rem;
-  }
+}
 
-  .about_image-lg {
+.about_image-lg {
     width: 20rem;
-  }
+}
 
-} */
+#gallery {
+    height: 68vh;
+}
+
+.swiper-wrapper {
+    height: 10rem;
+}
+
+} 
 
 /*=====Media Queries Section Small Screen=======*/
 @media screen and (max-width: 375px){
