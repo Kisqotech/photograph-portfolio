@@ -1715,7 +1715,7 @@ header {
 } 
 
 /*=====Media Queries Section Small Screen=======*/
-@media screen and (max-width: 375px){
+/*@media screen and (max-width: 375px){
   .nav_container{
     gap: 8rem;
   }
@@ -1749,7 +1749,7 @@ header {
 
 
   /*======Media About Section=======*/
-  .about_title {
+  /*.about_title {
     margin: 1rem 0;
   }
 
@@ -1800,7 +1800,7 @@ header {
     padding: 0 1rem;
     margin-bottom: 1rem;
   }
-  }
+  }*/
 
   /*=====Media Queries Section Small Screen=======*/
 /*@media screen and (max-width: 360px) {
