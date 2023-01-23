@@ -17,12 +17,14 @@ textButtons.forEach(textButton => {
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 20,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
+  navigation: {
+   /* el: ".swiper-pagination",
+    clickable: true, */
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
   breakpoints: {
-    599: {
+    600: {
       slidesPerView: 2,
       spaceBetween: 40,
     },
@@ -30,9 +32,13 @@ var swiper = new Swiper(".mySwiper", {
       slidesPerView: 3,
       spaceBetween: 60,
     },
-    460: {
+    375: {
       slidesPerView: 1,
-      spaceBetween: 80,
+      spaceAround: 60,
+    },
+    320: {
+      slidesPerView: 1,
+      spaceAround: 60,
     },
   }
 });
