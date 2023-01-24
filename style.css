@@ -1095,6 +1095,7 @@ header {
     top: -.7rem;
   }
   .about_right p {
+    font-size: 1.2rem;
     width: 112%;
     text-align: center;
     padding: 1rem;
@@ -1202,6 +1203,12 @@ header {
 @media screen and (max-width: 600px) {
   .gallery_tittle {
     margin: 2rem 0 0;
+  }
+
+  .gallery_container p{
+    font-size: 1rem;
+    margin: auto;
+    max-width: 100%;
   }
 
   .swiper-wrapper {
